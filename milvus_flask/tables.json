@@ -1,0 +1,1432 @@
+[
+    {
+        "name": "action_update_appointment_follicle_note",
+        "description": "Cập nhật số lượng nang trứng và ghi chú cho một thủ thuật y tế",
+        "lang": "vi"
+    },
+    {
+        "name": "action_update_appointment_follicle_note",
+        "description": "Update follicle count and notes for a medical procedure",
+        "lang": "en"
+    },
+    {
+        "name": "add_cryostraw_to_renew",
+        "description": "Wizard chọn ống đông lạnh cần gia hạn",
+        "lang": "vi"
+    },
+    {
+        "name": "add_cryostraw_to_renew",
+        "description": "Wizard for selecting cryopreservation straws for renewal",
+        "lang": "en"
+    },
+    {
+        "name": "check_sperm_donate_history",
+        "description": "Wizard kiểm tra lịch sử hiến tinh của bệnh nhân qua thông tin định danh",
+        "lang": "vi"
+    },
+    {
+        "name": "check_sperm_donate_history",
+        "description": "Wizard to check patient's sperm donation history via identification information",
+        "lang": "en"
+    },
+    {
+        "name": "history_medical_treatment_iui",
+        "description": "Lưu trữ lịch sử điều trị IUI",
+        "lang": "vi"
+    },
+    {
+        "name": "history_medical_treatment_iui",
+        "description": "Store IUI treatment history",
+        "lang": "en"
+    },
+    {
+        "name": "history_medical_treatment_ivf",
+        "description": "Lưu trữ thông tin điều trị IVF",
+        "lang": "vi"
+    },
+    {
+        "name": "history_medical_treatment_ivf",
+        "description": "Store IVF treatment information",
+        "lang": "en"
+    },
+    {
+        "name": "hr_contract_type",
+        "description": "Quản lý các loại hợp đồng lao động",
+        "lang": "vi"
+    },
+    {
+        "name": "hr_contract_type",
+        "description": "Manage types of labor contracts",
+        "lang": "en"
+    },
+    {
+        "name": "hr_department",
+        "description": "Quản lý các phòng ban trong công ty",
+        "lang": "vi"
+    },
+    {
+        "name": "hr_department",
+        "description": "Manage company departments",
+        "lang": "en"
+    },
+    {
+        "name": "hr_departure_reason",
+        "description": "Quản lý lý do nghỉ việc của nhân viên",
+        "lang": "vi"
+    },
+    {
+        "name": "hr_departure_reason",
+        "description": "Manage employee departure reasons",
+        "lang": "en"
+    },
+    {
+        "name": "hr_employee",
+        "description": "Quản lý thông tin nhân viên",
+        "lang": "vi"
+    },
+    {
+        "name": "hr_employee",
+        "description": "Manage employee information",
+        "lang": "en"
+    },
+    {
+        "name": "hr_employee_category",
+        "description": "Quản lý thẻ (tags) gán cho nhân viên",
+        "lang": "vi"
+    },
+    {
+        "name": "hr_employee_category",
+        "description": "Manage tags assigned to employees",
+        "lang": "en"
+    },
+    {
+        "name": "hr_job",
+        "description": "Quản lý các vị trí công việc trong công ty",
+        "lang": "vi"
+    },
+    {
+        "name": "hr_job",
+        "description": "Manage job positions in the company",
+        "lang": "en"
+    },
+    {
+        "name": "medical_appointment_check_foetus",
+        "description": "Quản lý khám thai định kỳ",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_appointment_check_foetus",
+        "description": "Manage regular prenatal check-ups",
+        "lang": "en"
+    },
+    {
+        "name": "medical_appointment_procedure",
+        "description": "Quản lý thủ thuật y tế",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_appointment_procedure",
+        "description": "Manage medical procedures",
+        "lang": "en"
+    },
+    {
+        "name": "medical_appointment_re_examination",
+        "description": "Quản lý tái khám bệnh nhân",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_appointment_re_examination",
+        "description": "Manage patient re-examinations",
+        "lang": "en"
+    },
+    {
+        "name": "medical_beta_hcg_pregnant",
+        "description": "Quản lý xét nghiệm beta HCG và theo dõi thai kỳ",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_beta_hcg_pregnant",
+        "description": "Manage beta HCG tests and pregnancy monitoring",
+        "lang": "en"
+    },
+    {
+        "name": "medical_birth_info",
+        "description": "Quản lý thông tin em bé sau điều trị",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_birth_info",
+        "description": "Manage baby information after treatment",
+        "lang": "en"
+    },
+    {
+        "name": "medical_blood_type",
+        "description": "Quản lý danh mục nhóm máu",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_blood_type",
+        "description": "Manage blood type categories",
+        "lang": "en"
+    },
+    {
+        "name": "medical_bottle_medium",
+        "description": "Quản lý lọ môi trường nuôi cấy trong phòng lab IVF",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_bottle_medium",
+        "description": "Manage culture medium bottles in the IVF lab",
+        "lang": "en"
+    },
+    {
+        "name": "medical_canes",
+        "description": "Quản lý ống đựng mẫu sinh học trong hệ thống bảo quản lạnh",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_canes",
+        "description": "Manage biological sample containers in the cryopreservation system",
+        "lang": "en"
+    },
+    {
+        "name": "medical_canes_position",
+        "description": "Quản lý vị trí lưu trữ mẫu sinh học trong ống đựng",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_canes_position",
+        "description": "Manage storage positions of biological samples in containers",
+        "lang": "en"
+    },
+    {
+        "name": "medical_canister",
+        "description": "Quản lý thông tin của canister trong hệ thống bảo quản lạnh",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_canister",
+        "description": "Manage canister information in the cryopreservation system",
+        "lang": "en"
+    },
+    {
+        "name": "medical_canister_layer",
+        "description": "Quản lý các tầng trong canister",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_canister_layer",
+        "description": "Manage layers in the canister",
+        "lang": "en"
+    },
+    {
+        "name": "medical_canister_position",
+        "description": "Quản lý từng vị trí cụ thể trong canister",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_canister_position",
+        "description": "Manage specific positions in the canister",
+        "lang": "en"
+    },
+    {
+        "name": "medical_cassette",
+        "description": "Quản lý thông tin về cassette trong hệ thống bảo quản mẫu sinh học",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_cassette",
+        "description": "Manage cassette information in the biological sample preservation system",
+        "lang": "en"
+    },
+    {
+        "name": "medical_cause_infertility",
+        "description": "Danh mục nguyên nhân vô sinh",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_cause_infertility",
+        "description": "List of infertility causes",
+        "lang": "en"
+    },
+    {
+        "name": "medical_create_culture",
+        "description": "Tạo và cập nhật thông tin nuôi cấy phôi/trứng",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_create_culture",
+        "description": "Create and update embryo/egg culture information",
+        "lang": "en"
+    },
+    {
+        "name": "medical_create_relation_popup",
+        "description": "Tạo và quản lý mối quan hệ giữa các bệnh nhân",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_create_relation_popup",
+        "description": "Create and manage relationships between patients",
+        "lang": "en"
+    },
+    {
+        "name": "medical_cryopreserv_straw",
+        "description": "Quản lý bảo quản lạnh các mẫu sinh học",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_cryopreserv_straw",
+        "description": "Manage cryopreservation of biological samples",
+        "lang": "en"
+    },
+    {
+        "name": "medical_day_of_embryo",
+        "description": "Quản lý thông tin về các ngày phát triển của phôi",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_day_of_embryo",
+        "description": "Manage information on embryo development days",
+        "lang": "en"
+    },
+    {
+        "name": "medical_department",
+        "description": "Quản lý các khoa/phòng trong bệnh viện hoặc trung tâm y tế",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_department",
+        "description": "Manage departments in hospitals or medical centers",
+        "lang": "en"
+    },
+    {
+        "name": "medical_detail_embryo_frozen",
+        "description": "Theo dõi chi tiết các phôi đã đông lạnh",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_detail_embryo_frozen",
+        "description": "Track details of frozen embryos",
+        "lang": "en"
+    },
+    {
+        "name": "medical_diagnostic",
+        "description": "Quản lý danh mục các chẩn đoán y tế",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_diagnostic",
+        "description": "Manage medical diagnosis categories",
+        "lang": "en"
+    },
+    {
+        "name": "medical_document_type",
+        "description": "Quản lý danh mục các loại tài liệu trong hệ thống y tế",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_document_type",
+        "description": "Manage categories of documents in the medical system",
+        "lang": "en"
+    },
+    {
+        "name": "medical_embryo_biopsy_detail",
+        "description": "Lưu trữ thông tin chi tiết về mẫu sinh thiết phôi",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_embryo_biopsy_detail",
+        "description": "Store detailed information about embryo biopsy samples",
+        "lang": "en"
+    },
+    {
+        "name": "medical_embryo_culture",
+        "description": "Theo dõi và quản lý quá trình nuôi cấy phôi",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_embryo_culture",
+        "description": "Track and manage the embryo culture process",
+        "lang": "en"
+    },
+    {
+        "name": "medical_embryo_detail",
+        "description": "Thống kê số lượng phôi theo ngày",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_embryo_detail",
+        "description": "Statistics of embryos by day",
+        "lang": "en"
+    },
+    {
+        "name": "medical_embryo_grading",
+        "description": "Phân loại chất lượng phôi",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_embryo_grading",
+        "description": "Grade embryo quality",
+        "lang": "en"
+    },
+    {
+        "name": "medical_embryonic_stage",
+        "description": "Quản lý các giai đoạn phát triển của phôi",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_embryonic_stage",
+        "description": "Manage embryo development stages",
+        "lang": "en"
+    },
+    {
+        "name": "medical_embryonic_stage_condition",
+        "description": "Định nghĩa điều kiện đánh giá phôi",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_embryonic_stage_condition",
+        "description": "Define embryo evaluation conditions",
+        "lang": "en"
+    },
+    {
+        "name": "medical_ex_husband",
+        "description": "Quản lý thông tin tiền sử sinh sản",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_ex_husband",
+        "description": "Manage reproductive history information",
+        "lang": "en"
+    },
+    {
+        "name": "medical_follicular_monitoring_decision",
+        "description": "Quản lý quyết định theo dõi nang noãn",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_follicular_monitoring_decision",
+        "description": "Manage follicular monitoring decisions",
+        "lang": "en"
+    },
+    {
+        "name": "medical_follicular_size",
+        "description": "Lưu trữ thông tin kích thước nang noãn",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_follicular_size",
+        "description": "Store follicular size information",
+        "lang": "en"
+    },
+    {
+        "name": "medical_follow_follicular",
+        "description": "Quản lý theo dõi nang noãn",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_follow_follicular",
+        "description": "Manage follicular monitoring",
+        "lang": "en"
+    },
+    {
+        "name": "medical_group_embryo",
+        "description": "Quản lý nhóm đông lạnh phôi/trứng",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_group_embryo",
+        "description": "Manage embryo/egg freezing groups",
+        "lang": "en"
+    },
+    {
+        "name": "medical_history_embryo_culture",
+        "description": "Ghi nhận lịch sử nuôi cấy phôi",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_history_embryo_culture",
+        "description": "Record embryo culture history",
+        "lang": "en"
+    },
+    {
+        "name": "medical_history_relationship",
+        "description": "Quản lý lịch sử mối quan hệ bệnh nhân",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_history_relationship",
+        "description": "Manage patient relationship history",
+        "lang": "en"
+    },
+    {
+        "name": "medical_hr_department_line",
+        "description": "Liên kết nhân viên và bộ phận",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_hr_department_line",
+        "description": "Link employees and departments",
+        "lang": "en"
+    },
+    {
+        "name": "medical_icd",
+        "description": "Quản lý danh mục bệnh tật quốc tế",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_icd",
+        "description": "Manage international disease categories",
+        "lang": "en"
+    },
+    {
+        "name": "medical_image_embryo",
+        "description": "Quản lý hình ảnh phôi",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_image_embryo",
+        "description": "Manage embryo images",
+        "lang": "en"
+    },
+    {
+        "name": "medical_indication",
+        "description": "Quản lý chỉ định xét nghiệm y tế",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_indication",
+        "description": "Manage medical test indications",
+        "lang": "en"
+    },
+    {
+        "name": "medical_indication_detail",
+        "description": "Chi tiết chỉ định xét nghiệm",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_indication_detail",
+        "description": "Medical test indication details",
+        "lang": "en"
+    },
+    {
+        "name": "medical_indication_detail_select",
+        "description": "Lựa chọn chỉ số xét nghiệm",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_indication_detail_select",
+        "description": "Select test indices",
+        "lang": "en"
+    },
+    {
+        "name": "medical_indication_reference",
+        "description": "Tham chiếu chỉ định xét nghiệm",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_indication_reference",
+        "description": "Reference medical test indications",
+        "lang": "en"
+    },
+    {
+        "name": "medical_indication_trigger",
+        "description": "Quản lý trigger cho chỉ định xét nghiệm",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_indication_trigger",
+        "description": "Manage triggers for medical test indications",
+        "lang": "en"
+    },
+    {
+        "name": "medical_initial_evaluation",
+        "description": "Đánh giá ban đầu bệnh nhân",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_initial_evaluation",
+        "description": "Initial patient evaluation",
+        "lang": "en"
+    },
+    {
+        "name": "medical_initial_evaluation_prescription",
+        "description": "Đơn thuốc đánh giá ban đầu",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_initial_evaluation_prescription",
+        "description": "Initial evaluation prescription",
+        "lang": "en"
+    },
+    {
+        "name": "medical_location",
+        "description": "Vị trí lưu trữ mẫu sinh học",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_location",
+        "description": "Biological sample storage location",
+        "lang": "en"
+    },
+    {
+        "name": "medical_location_room",
+        "description": "Thông tin phòng lưu trữ mẫu vật y tế",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_location_room",
+        "description": "Medical sample storage room information",
+        "lang": "en"
+    },
+    {
+        "name": "medical_outpatient_examination",
+        "description": "Khám bệnh ngoại trú",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_outpatient_examination",
+        "description": "Outpatient examination",
+        "lang": "en"
+    },
+    {
+        "name": "medical_patient",
+        "description": "Thông tin cơ bản bệnh nhân",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_patient",
+        "description": "Basic patient information",
+        "lang": "en"
+    },
+    {
+        "name": "medical_patient_action_reference_bank",
+        "description": "Cập nhật mã tham chiếu ngân hàng mô",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_patient_action_reference_bank",
+        "description": "Update tissue bank reference code",
+        "lang": "en"
+    },
+    {
+        "name": "medical_patient_documen",
+        "description": "Quản lý giấy tờ bệnh nhân",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_patient_documen",
+        "description": "Manage patient documents",
+        "lang": "en"
+    },
+    {
+        "name": "medical_patient_document_submit",
+        "description": "Theo dõi nộp giấy tờ bệnh nhân",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_patient_document_submit",
+        "description": "Track patient document submission",
+        "lang": "en"
+    },
+    {
+        "name": "medical_patient_partner",
+        "description": "Thông tin người thân/người đại diện bệnh nhân",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_patient_partner",
+        "description": "Patient relative/representative information",
+        "lang": "en"
+    },
+    {
+        "name": "medical_patient_printed_report_event",
+        "description": "Lịch sử in báo cáo bệnh nhân",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_patient_printed_report_event",
+        "description": "Patient report printing history",
+        "lang": "en"
+    },
+    {
+        "name": "medical_patient_record",
+        "description": "Hồ sơ bệnh án",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_patient_record",
+        "description": "Medical records",
+        "lang": "en"
+    },
+    {
+        "name": "medical_patient_relationship",
+        "description": "Mối quan hệ điều trị giữa bệnh nhân",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_patient_relationship",
+        "description": "Treatment relationship between patients",
+        "lang": "en"
+    },
+    {
+        "name": "medical_patient_report_wizard_line",
+        "description": "Quản lý in báo cáo y tế",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_patient_report_wizard_line",
+        "description": "Manage medical report printing",
+        "lang": "en"
+    },
+    {
+        "name": "medical_pgs_info",
+        "description": "Thông tin quy trình PGS",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_pgs_info",
+        "description": "PGS process information",
+        "lang": "en"
+    },
+    {
+        "name": "medical_pgs_info_line",
+        "description": "chi tiết của quy trình PGS",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_pgs_info_line",
+        "description": "PGS process details",
+        "lang": "en"
+    },
+    {
+        "name": "medical_prepare_medium",
+        "description": "chuẩn bị môi trường nuôi cấy",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_prepare_medium",
+        "description": "Prepare culture medium",
+        "lang": "en"
+    },
+    {
+        "name": "medical_prepare_medium_detail",
+        "description": "chi tiết chuẩn bị môi trường nuôi cấy",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_prepare_medium_detail",
+        "description": "Culture medium preparation details",
+        "lang": "en"
+    },
+    {
+        "name": "medical_prescription_order",
+        "description": "quản lý đơn thuốc y tế",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_prescription_order",
+        "description": "Manage medical prescriptions",
+        "lang": "en"
+    },
+    {
+        "name": "medical_prescription_order_line",
+        "description": "quản lý chi tiết đơn thuốc",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_prescription_order_line",
+        "description": "Manage prescription details",
+        "lang": "en"
+    },
+    {
+        "name": "medical_prescription_usage",
+        "description": "quản lý cách dùng thuốc",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_prescription_usage",
+        "description": "Manage medication usage",
+        "lang": "en"
+    },
+    {
+        "name": "medical_procedure_room",
+        "description": "quản lý thông tin về phòng thủ thuật",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_procedure_room",
+        "description": "Manage information about procedure rooms",
+        "lang": "en"
+    },
+    {
+        "name": "medical_process_pgt",
+        "description": "quản lý quy trình PGT",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_process_pgt",
+        "description": "Manage PGT process",
+        "lang": "en"
+    },
+    {
+        "name": "medical_process_storage",
+        "description": "quản lý quy trình lưu trữ phôi/noãn",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_process_storage",
+        "description": "Manage embryo/egg storage process",
+        "lang": "en"
+    },
+    {
+        "name": "medical_process_transfer",
+        "description": "quản lý quá trình chuyển phôi thai",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_process_transfer",
+        "description": "Manage embryo transfer process",
+        "lang": "en"
+    },
+    {
+        "name": "medical_protocol",
+        "description": "quản lý các quy trình y tế",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_protocol",
+        "description": "Manage medical protocols",
+        "lang": "en"
+    },
+    {
+        "name": "medical_record_document",
+        "description": "định nghĩa cấu trúc hồ sơ y tế",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_record_document",
+        "description": "Define medical record structure",
+        "lang": "en"
+    },
+    {
+        "name": "medical_record_type",
+        "description": "quản lý các loại hồ sơ y tế",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_record_type",
+        "description": "Manage types of medical records",
+        "lang": "en"
+    },
+    {
+        "name": "medical_renewal",
+        "description": "quản lý việc gia hạn thời gian lưu trữ mẫu y tế",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_renewal",
+        "description": "Manage medical sample storage renewal",
+        "lang": "en"
+    },
+    {
+        "name": "medical_renewal_line",
+        "description": "theo dõi chi tiết việc gia hạn lưu trữ mẫu sinh học",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_renewal_line",
+        "description": "Track details of biological sample storage renewal",
+        "lang": "en"
+    },
+    {
+        "name": "medical_renewal_reminder",
+        "description": "quản lý việc nhắc nhở gia hạn lưu trữ mẫu sinh học",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_renewal_reminder",
+        "description": "Manage biological sample storage renewal reminders",
+        "lang": "en"
+    },
+    {
+        "name": "medical_renewal_reminder_log",
+        "description": "ghi nhận lịch sử các hoạt động nhắc nhở gia hạn",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_renewal_reminder_log",
+        "description": "Record history of renewal reminder activities",
+        "lang": "en"
+    },
+    {
+        "name": "medical_renewal_reminder_log_line",
+        "description": "ghi lại chi tiết các hoạt động nhắc nhở gia hạn",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_renewal_reminder_log_line",
+        "description": "Record details of renewal reminder activities",
+        "lang": "en"
+    },
+    {
+        "name": "medical_renewal_reminder_queue",
+        "description": "quản lý hàng đợi nhắc nhở gia hạn dịch vụ y tế",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_renewal_reminder_queue",
+        "description": "Manage medical service renewal reminder queue",
+        "lang": "en"
+    },
+    {
+        "name": "medical_storage_configuration",
+        "description": "cấu hình các thông số cho việc lưu trữ và nhắc nhở",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_storage_configuration",
+        "description": "Configure parameters for storage and reminders",
+        "lang": "en"
+    },
+    {
+        "name": "medical_storage_history",
+        "description": "theo dõi lịch sử lưu trữ mẫu sinh học",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_storage_history",
+        "description": "Track history of biological sample storage",
+        "lang": "en"
+    },
+    {
+        "name": "medical_storage_process",
+        "description": "quản lý quy trình lưu trữ các mẫu sinh học",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_storage_process",
+        "description": "Manage biological sample storage process",
+        "lang": "en"
+    },
+    {
+        "name": "medical_storage_tool",
+        "description": "Quản lý dụng cụ và thiết bị lưu trữ mẫu sinh học",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_storage_tool",
+        "description": "Manage biological sample storage tools and equipment",
+        "lang": "en"
+    },
+    {
+        "name": "medical_tank",
+        "description": "Quản lý bình chứa lạnh",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_tank",
+        "description": "Manage cryogenic tanks",
+        "lang": "en"
+    },
+    {
+        "name": "medical_tank_information_record",
+        "description": "Ghi nhận thông tin theo dõi bình chứa",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_tank_information_record",
+        "description": "Record cryogenic tank monitoring information",
+        "lang": "en"
+    },
+    {
+        "name": "medical_test",
+        "description": "Quản lý phiếu xét nghiệm y tế",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_test",
+        "description": "Manage medical test forms",
+        "lang": "en"
+    },
+    {
+        "name": "medical_test_category",
+        "description": "Phân loại xét nghiệm y tế",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_test_category",
+        "description": "Categorize medical tests",
+        "lang": "en"
+    },
+    {
+        "name": "medical_test_group",
+        "description": "Nhóm xét nghiệm y tế",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_test_group",
+        "description": "Medical test groups",
+        "lang": "en"
+    },
+    {
+        "name": "medical_test_indices",
+        "description": "Định nghĩa chỉ số xét nghiệm",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_test_indices",
+        "description": "Define test indices",
+        "lang": "en"
+    },
+    {
+        "name": "medical_test_indices_result_selection",
+        "description": "Định nghĩa lựa chọn kết quả xét nghiệm",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_test_indices_result_selection",
+        "description": "Define test result selections",
+        "lang": "en"
+    },
+    {
+        "name": "medical_test_result",
+        "description": "Quản lý kết quả xét nghiệm",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_test_result",
+        "description": "Manage test results",
+        "lang": "en"
+    },
+    {
+        "name": "medical_thaw_bank_popup",
+        "description": "Quản lý quy trình rã đông mẫu sinh học",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_thaw_bank_popup",
+        "description": "Manage biological sample thawing process",
+        "lang": "en"
+    },
+    {
+        "name": "medical_thaw_popup",
+        "description": "Quản lý quy trình rã đông mẫu sinh học",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_thaw_popup",
+        "description": "Manage biological sample thawing process",
+        "lang": "en"
+    },
+    {
+        "name": "medical_thaw_popup_detail",
+        "description": "Chi tiết quy trình rã đông mẫu sinh học",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_thaw_popup_detail",
+        "description": "Biological sample thawing process details",
+        "lang": "en"
+    },
+    {
+        "name": "medical_thawing_process",
+        "description": "Quản lý quy trình rã đông mẫu sinh học",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_thawing_process",
+        "description": "Manage biological sample thawing process",
+        "lang": "en"
+    },
+    {
+        "name": "medical_transfer_bank",
+        "description": "Chuyển mẫu vật y tế vào ngân hàng lưu trữ",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_transfer_bank",
+        "description": "Transfer medical samples to storage bank",
+        "lang": "en"
+    },
+    {
+        "name": "medical_treatment",
+        "description": "Quản lý quy trình điều trị y tế",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_treatment",
+        "description": "Manage medical treatment process",
+        "lang": "en"
+    },
+    {
+        "name": "medical_treatment_document",
+        "description": "Quản lý tài liệu điều trị y tế",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_treatment_document",
+        "description": "Manage medical treatment documents",
+        "lang": "en"
+    },
+    {
+        "name": "medical_treatment_medium",
+        "description": "Quản lý môi trường nuôi cấy điều trị y tế",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_treatment_medium",
+        "description": "Manage medical treatment culture medium",
+        "lang": "en"
+    },
+    {
+        "name": "medical_treatment_result",
+        "description": "Quản lý kết quả điều trị y tế",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_treatment_result",
+        "description": "Manage medical treatment results",
+        "lang": "en"
+    },
+    {
+        "name": "medical_treatment_result_beta",
+        "description": "Theo dõi kết quả xét nghiệm beta HCG",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_treatment_result_beta",
+        "description": "Track beta HCG test results",
+        "lang": "en"
+    },
+    {
+        "name": "medical_treatment_stage",
+        "description": "Quản lý giai đoạn điều trị y tế",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_treatment_stage",
+        "description": "Manage medical treatment stages",
+        "lang": "en"
+    },
+    {
+        "name": "medical_treatment_technique",
+        "description": "Quản lý kỹ thuật điều trị y tế",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_treatment_technique",
+        "description": "Manage medical treatment techniques",
+        "lang": "en"
+    },
+    {
+        "name": "medical_update_relation_popup",
+        "description": "Cập nhật thông tin mối quan hệ bệnh nhân",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_update_relation_popup",
+        "description": "Update patient relationship information",
+        "lang": "en"
+    },
+    {
+        "name": "medical_waiting_procedure",
+        "description": "Quản lý hàng đợi thủ tục y tế",
+        "lang": "vi"
+    },
+    {
+        "name": "medical_waiting_procedure",
+        "description": "Manage medical procedure queue",
+        "lang": "en"
+    },
+    {
+        "name": "medium_type",
+        "description": "Quản lý loại môi trường nuôi cấy",
+        "lang": "vi"
+    },
+    {
+        "name": "medium_type",
+        "description": "Manage types of culture medium",
+        "lang": "en"
+    },
+    {
+        "name": "patient_fingerprint",
+        "description": "Lưu trữ thông tin vân tay bệnh nhân",
+        "lang": "vi"
+    },
+    {
+        "name": "patient_fingerprint",
+        "description": "Store patient fingerprint information",
+        "lang": "en"
+    },
+    {
+        "name": "patient_fingerprint_history",
+        "description": "Lịch sử xác thực vân tay bệnh nhân",
+        "lang": "vi"
+    },
+    {
+        "name": "patient_fingerprint_history",
+        "description": "Patient fingerprint authentication history",
+        "lang": "en"
+    },
+    {
+        "name": "patient_recognition_history",
+        "description": "Lịch sử nhận diện bệnh nhân",
+        "lang": "vi"
+    },
+    {
+        "name": "patient_recognition_history",
+        "description": "Patient recognition history",
+        "lang": "en"
+    },
+    {
+        "name": "process_storage_line",
+        "description": "Lưu trữ quá trình cấp đông mẫu",
+        "lang": "vi"
+    },
+    {
+        "name": "process_storage_line",
+        "description": "Store sample freezing process",
+        "lang": "en"
+    },
+    {
+        "name": "process_storage_popup",
+        "description": "Quản lý lưu trữ mẫu y sinh học",
+        "lang": "vi"
+    },
+    {
+        "name": "process_storage_popup",
+        "description": "Manage biological sample storage",
+        "lang": "en"
+    },
+    {
+        "name": "product_attribute",
+        "description": "Quản lý thuộc tính sản phẩm",
+        "lang": "vi"
+    },
+    {
+        "name": "product_attribute",
+        "description": "Manage product attributes",
+        "lang": "en"
+    },
+    {
+        "name": "product_attribute_custom_value",
+        "description": "Lưu trữ giá trị tùy chỉnh thuộc tính sản phẩm",
+        "lang": "vi"
+    },
+    {
+        "name": "product_attribute_custom_value",
+        "description": "Store custom product attribute values",
+        "lang": "en"
+    },
+    {
+        "name": "product_attribute_value",
+        "description": "Lưu trữ giá trị thuộc tính sản phẩm",
+        "lang": "vi"
+    },
+    {
+        "name": "product_attribute_value",
+        "description": "Store product attribute values",
+        "lang": "en"
+    },
+    {
+        "name": "product_category",
+        "description": "Quản lý danh mục sản phẩm",
+        "lang": "vi"
+    },
+    {
+        "name": "product_category",
+        "description": "Manage product categories",
+        "lang": "en"
+    },
+    {
+        "name": "product_label_layout",
+        "description": "Tạo và in nhãn sản phẩm",
+        "lang": "vi"
+    },
+    {
+        "name": "product_label_layout",
+        "description": "Create and print product labels",
+        "lang": "en"
+    },
+    {
+        "name": "product_packaging",
+        "description": "Quản lý đóng gói sản phẩm",
+        "lang": "vi"
+    },
+    {
+        "name": "product_packaging",
+        "description": "Manage product packaging",
+        "lang": "en"
+    },
+    {
+        "name": "product_pricelist",
+        "description": "Quản lý bảng giá sản phẩm",
+        "lang": "vi"
+    },
+    {
+        "name": "product_pricelist",
+        "description": "Manage product price lists",
+        "lang": "en"
+    },
+    {
+        "name": "product_pricelist_item",
+        "description": "Định nghĩa quy tắc tính giá sản phẩm",
+        "lang": "vi"
+    },
+    {
+        "name": "product_pricelist_item",
+        "description": "Define product pricing rules",
+        "lang": "en"
+    },
+    {
+        "name": "product_product",
+        "description": "Quản lý biến thể sản phẩm",
+        "lang": "vi"
+    },
+    {
+        "name": "product_product",
+        "description": "Manage product variants",
+        "lang": "en"
+    },
+    {
+        "name": "product_supplierinfo",
+        "description": "Quản lý bảng giá sản phẩm từ nhà cung cấp",
+        "lang": "vi"
+    },
+    {
+        "name": "product_supplierinfo",
+        "description": "Manage supplier product price lists",
+        "lang": "en"
+    },
+    {
+        "name": "product_tag",
+        "description": "Quản lý thẻ sản phẩm",
+        "lang": "vi"
+    },
+    {
+        "name": "product_tag",
+        "description": "Manage product tags",
+        "lang": "en"
+    },
+    {
+        "name": "product_template",
+        "description": "Quản lý thông tin sản phẩm",
+        "lang": "vi"
+    },
+    {
+        "name": "product_template",
+        "description": "Manage product information",
+        "lang": "en"
+    },
+    {
+        "name": "product_template_attribute_exclusion",
+        "description": "Định nghĩa quy tắc loại trừ thuộc tính sản phẩm",
+        "lang": "vi"
+    },
+    {
+        "name": "product_template_attribute_exclusion",
+        "description": "Define product attribute exclusion rules",
+        "lang": "en"
+    },
+    {
+        "name": "product_template_attribute_line",
+        "description": "Quản lý thuộc tính sản phẩm",
+        "lang": "vi"
+    },
+    {
+        "name": "product_template_attribute_line",
+        "description": "Manage product attributes",
+        "lang": "en"
+    },
+    {
+        "name": "product_template_attribute_value",
+        "description": "Lưu trữ mối quan hệ thuộc tính sản phẩm",
+        "lang": "vi"
+    },
+    {
+        "name": "product_template_attribute_value",
+        "description": "Store product attribute relationships",
+        "lang": "en"
+    },
+    {
+        "name": "range_years_old",
+        "description": "Định nghĩa khoảng tuổi",
+        "lang": "vi"
+    },
+    {
+        "name": "range_years_old",
+        "description": "Define age range",
+        "lang": "en"
+    },
+    {
+        "name": "relation_contact",
+        "description": "Quản lý thông tin mối quan hệ tạm thời",
+        "lang": "vi"
+    },
+    {
+        "name": "relation_contact",
+        "description": "Manage temporary relationship information",
+        "lang": "en"
+    },
+    {
+        "name": "renew_cryostraw_group",
+        "description": "Nhóm ống đông lạnh cần gia hạn",
+        "lang": "vi"
+    },
+    {
+        "name": "renew_cryostraw_group",
+        "description": "Group of cryopreservation straws for renewal",
+        "lang": "en"
+    },
+    {
+        "name": "res_partner",
+        "description": "Quản lý thông tin nhân viên",
+        "lang": "vi"
+    },
+    {
+        "name": "res_partner",
+        "description": "Manage employee information",
+        "lang": "en"
+    },
+    {
+        "name": "res_users",
+        "description": "Quản lý người dùng hệ thống",
+        "lang": "vi"
+    },
+    {
+        "name": "res_users",
+        "description": "Manage system users",
+        "lang": "en"
+    },
+    {
+        "name": "treatment_test_subscriber",
+        "description": "Đăng ký theo dõi xét nghiệm điều trị",
+        "lang": "vi"
+    },
+    {
+        "name": "treatment_test_subscriber",
+        "description": "Subscribe to treatment test monitoring",
+        "lang": "en"
+    },
+    {
+        "name": "uom_category",
+        "description": "Quản lý đơn vị đo lường sản phẩm",
+        "lang": "vi"
+    },
+    {
+        "name": "uom_category",
+        "description": "Manage product measurement units",
+        "lang": "en"
+    },
+    {
+        "name": "uom_uom",
+        "description": "Phân loại đơn vị đo lường",
+        "lang": "vi"
+    },
+    {
+        "name": "uom_uom",
+        "description": "Categorize measurement units",
+        "lang": "en"
+    }
+]

@@ -1,0 +1,196 @@
+[
+    {
+        "description": "Total procedure of embryo transfers (frozen embryo transfer)",
+        "lang": "en",
+        "query": "SELECT EXTRACT(MONTH FROM date_transfer) AS MONTH, COUNT(*) AS total_transfer_procedures FROM medical_treatment WHERE active=TRUE AND technical='FET' AND date_transfer IS NOT NULL AND EXTRACT(YEAR FROM date_transfer)=2024 GROUP BY EXTRACT(MONTH FROM date_transfer) ORDER BY MONTH;",
+        "tables": {
+            "medical_treatment": ["date_transfer", "active", "technical"]
+        }
+    },
+    {
+        "description": "Total number of embryo transfers (frozen embryo transfer)",
+        "lang": "en",
+        "query": "SELECT EXTRACT(MONTH FROM date_transfer) AS MONTH, SUM(CAST(qty_embryo_transfer AS INT)) AS total_embryos_transferred FROM medical_treatment WHERE active=TRUE AND technical='FET' AND date_transfer IS NOT NULL AND qty_embryo_transfer IS NOT NULL AND qty_embryo_transfer !='' AND EXTRACT(YEAR FROM date_transfer)=2024 GROUP BY EXTRACT(MONTH FROM date_transfer) ORDER BY MONTH;",
+        "tables": {
+            "medical_treatment": ["date_transfer", "active", "technical", "qty_embryo_transfer"]
+        }
+    },
+    {
+        "description": "Number of βHCG(+) cases (frozen embryo transfer)",
+        "lang": "en",
+        "query": "SELECT EXTRACT(MONTH FROM mtr.date_transfer) AS MONTH, COUNT(*) AS bhcg_positive_count FROM medical_treatment_result mtr JOIN medical_treatment mt ON mtr.treatment_id=mt.ID WHERE mt.active=TRUE AND mt.technical='FET' AND mtr.date_transfer IS NOT NULL AND mtr.index_digit>=25 AND EXTRACT(YEAR FROM mtr.date_transfer)=2024 GROUP BY EXTRACT(MONTH FROM mtr.date_transfer) ORDER BY MONTH;",
+        "tables": {
+            "medical_treatment_result": ["date_transfer", "treatment_id", "index_digit"],
+            "medical_treatment": ["active", "technical"]
+        }
+    },
+    {
+        "description": "Number of reproductive biology cases (frozen embryo transfer)",
+        "lang": "en",
+        "query": "SELECT EXTRACT(MONTH FROM mtr.date_transfer) AS MONTH, COUNT(*) AS biochemical_pregnancy_count FROM medical_treatment_result mtr JOIN medical_treatment mt ON mtr.treatment_id=mt.ID WHERE mt.active=TRUE AND mt.technical='FET' AND mtr.date_transfer IS NOT NULL AND mtr.chemical_pregnancy=TRUE AND EXTRACT(YEAR FROM mtr.date_transfer)=2024 GROUP BY EXTRACT(MONTH FROM mtr.date_transfer) ORDER BY MONTH;",
+        "tables": {
+            "medical_treatment_result": ["date_transfer", "treatment_id", "chemical_pregnancy"],
+            "medical_treatment": ["active", "technical"]
+        }
+    },
+    {
+        "description": "Number of clinical pregnancy cases (frozen embryo transfer)",
+        "lang": "en",
+        "query": "SELECT EXTRACT(MONTH FROM mtr.date_transfer) AS MONTH, COUNT(*) AS clinical_pregnancy_count FROM medical_treatment_result mtr JOIN medical_treatment mt ON mtr.treatment_id=mt.ID WHERE mt.active=TRUE AND mt.technical='FET' AND mtr.date_transfer IS NOT NULL AND mtr.clinical_pregnancy=TRUE AND EXTRACT(YEAR FROM mtr.date_transfer)=2024 GROUP BY EXTRACT(MONTH FROM mtr.date_transfer) ORDER BY MONTH;",
+        "tables": {
+            "medical_treatment_result": ["date_transfer", "treatment_id", "clinical_pregnancy"],
+            "medical_treatment": ["active", "technical"]
+        }
+    },
+    {
+        "description": "Total number of amniotic membrane (frozen embryo transfer)",
+        "lang": "en",
+        "query": "SELECT EXTRACT(MONTH FROM mtr.date_transfer) AS MONTH, SUM(gestational_sac_digit) AS total_gestational_sacs FROM medical_treatment_result mtr JOIN medical_treatment mt ON mtr.treatment_id=mt.ID WHERE mt.active=TRUE AND mt.technical='FET' AND mtr.date_transfer IS NOT NULL AND EXTRACT(YEAR FROM mtr.date_transfer)=2024 GROUP BY EXTRACT(MONTH FROM mtr.date_transfer) ORDER BY MONTH;",
+        "tables": {
+            "medical_treatment_result": ["date_transfer", "treatment_id", "gestational_sac_digit"],
+            "medical_treatment": ["active", "technical"]
+        }
+    },
+    {
+        "description": "Number of cases with 2 or more amniotic membrane (frozen embryo transfer)",
+        "lang": "en",
+        "query": "SELECT EXTRACT(MONTH FROM mtr.date_transfer) AS MONTH, COUNT(*) AS total_gestational_sacs FROM medical_treatment_result mtr JOIN medical_treatment mt ON mtr.treatment_id=mt.ID WHERE mt.active=TRUE AND mt.technical='FET' AND mtr.date_transfer IS NOT NULL AND gestational_sac_digit>=2 AND EXTRACT(YEAR FROM mtr.date_transfer)=2024 GROUP BY EXTRACT(MONTH FROM mtr.date_transfer) ORDER BY MONTH;",
+        "tables": {
+            "medical_treatment_result": ["date_transfer", "treatment_id", "gestational_sac_digit"],
+            "medical_treatment": ["active", "technical"]
+        }
+    },
+    {
+        "description": "Number of ectopic pregnancy cases (frozen embryo transfer)",
+        "lang": "en",
+        "query": "SELECT EXTRACT(MONTH FROM mtr.date_transfer) AS MONTH, COUNT(*) AS ectopic_pregnancy_count FROM medical_treatment_result mtr JOIN medical_treatment mt ON mtr.treatment_id=mt.ID WHERE mt.active=TRUE AND mt.technical='FET' AND mtr.date_transfer IS NOT NULL AND EXTRACT(YEAR FROM mtr.date_transfer)=2024 AND mtr.ectopic_pregnancy=TRUE GROUP BY EXTRACT(MONTH FROM mtr.date_transfer) ORDER BY MONTH;",
+        "tables": {
+            "medical_treatment_result": ["date_transfer", "treatment_id", "ectopic_pregnancy"],
+            "medical_treatment": ["active", "technical"]
+        }
+    },
+    {
+        "description": "Number of miscarriage/stillbirth cases (frozen embryo transfer)",
+        "lang": "en",
+        "query": "SELECT EXTRACT(MONTH FROM r.date_transfer) AS MONTH, COUNT(*) AS stillbirth_count FROM medical_treatment_result r JOIN medical_treatment T ON r.treatment_id=T.ID WHERE T.active=TRUE AND T.technical='FET' AND r.date_transfer IS NOT NULL AND r.stillbirth=TRUE AND EXTRACT(YEAR FROM r.date_transfer)=2024 GROUP BY EXTRACT(MONTH FROM r.date_transfer) ORDER BY MONTH;",
+        "tables": {
+            "medical_treatment_result": ["date_transfer", "treatment_id", "stillbirth"],
+            "medical_treatment": ["active", "technical"]
+        }
+    },
+    {
+        "description": "Number of preterm birth cases (frozen embryo transfer)",
+        "lang": "en",
+        "query": "SELECT EXTRACT(MONTH FROM r.date_transfer) AS MONTH, COUNT(*) AS preterm_birth_count FROM medical_treatment_result r JOIN medical_treatment T ON r.treatment_id=T.ID WHERE T.active=TRUE AND T.technical='FET' AND r.date_transfer IS NOT NULL AND r.preterm_birth=TRUE AND EXTRACT(YEAR FROM r.date_transfer)=2022 GROUP BY EXTRACT(MONTH FROM r.date_transfer) ORDER BY MONTH;",
+        "tables": {
+            "medical_treatment_result": ["date_transfer", "treatment_id", "preterm_birth"],
+            "medical_treatment": ["active", "technical"]
+        }
+    },
+    {
+        "description": "Number of cases with live birth (frozen embryo transfer)",
+        "lang": "en",
+        "query": "SELECT EXTRACT(MONTH FROM r.date_transfer) AS MONTH, COUNT(*) AS live_birth_count FROM medical_treatment_result r JOIN medical_treatment T ON r.treatment_id=T.ID WHERE T.active=TRUE AND T.technical='FET' AND r.date_transfer IS NOT NULL AND r.num_baby_live_digit>=1 AND EXTRACT(YEAR FROM r.date_transfer)=2022 GROUP BY EXTRACT(MONTH FROM r.date_transfer) ORDER BY MONTH;",
+        "tables": {
+            "medical_treatment_result": ["date_transfer", "treatment_id", "num_baby_live_digit"],
+            "medical_treatment": ["active", "technical"]
+        }
+    },
+    {
+        "description": "Tổng số ca chuyển phôi (chuyển phôi trữ)",
+        "lang": "vi",
+        "query": "SELECT EXTRACT(MONTH FROM date_transfer) AS MONTH,COUNT(*) AS total_transfer_procedures FROM medical_treatment WHERE active=TRUE AND technical='FET' AND date_transfer IS NOT NULL AND EXTRACT(YEAR FROM date_transfer)=2024 GROUP BY EXTRACT(MONTH FROM date_transfer) ORDER BY MONTH;",
+        "tables": {
+            "medical_treatment": ["date_transfer", "active", "technical"]
+        }
+    },
+    {
+        "description": "Tổng số phôi chuyển (chuyển phôi trữ)",
+        "lang": "vi",
+        "query": "SELECT EXTRACT(MONTH FROM date_transfer) AS MONTH,SUM(CAST (qty_embryo_transfer AS INT)) AS total_embryos_transferred FROM medical_treatment WHERE active=TRUE AND technical='FET' AND date_transfer IS NOT NULL AND qty_embryo_transfer IS NOT NULL AND qty_embryo_transfer !='' AND EXTRACT(YEAR FROM date_transfer)=2024 GROUP BY EXTRACT(MONTH FROM date_transfer) ORDER BY MONTH;",
+        "tables": {
+            "medical_treatment": ["date_transfer", "active", "technical", "qty_embryo_transfer"]
+        }
+    },
+    {
+        "description": "Số ca βHCG(+) (chuyển phôi trữ)",
+        "lang": "vi",
+        "query": "SELECT EXTRACT(MONTH FROM mtr.date_transfer) AS MONTH,COUNT(*) AS bhcg_positive_count FROM medical_treatment_result mtr JOIN medical_treatment mt ON mtr.treatment_id=mt.ID WHERE mt.active=TRUE AND mt.technical='FET' AND mtr.date_transfer IS NOT NULL AND mtr.index_digit>=25 AND EXTRACT(YEAR FROM mtr.date_transfer)=2024 GROUP BY EXTRACT(MONTH FROM mtr.date_transfer) ORDER BY MONTH;",
+        "tables": {
+            "medical_treatment_result": ["date_transfer", "treatment_id", "index_digit"],
+            "medical_treatment": ["active", "technical"]
+        }
+    },
+    {
+        "description": "Số ca thai sinh hóa (chuyển phôi trữ)",
+        "lang": "vi",
+        "query": "SELECT EXTRACT(MONTH FROM mtr.date_transfer) AS MONTH,COUNT(*) AS biochemical_pregnancy_count FROM medical_treatment_result mtr JOIN medical_treatment mt ON mtr.treatment_id=mt.ID WHERE mt.active=TRUE AND mt.technical='FET' AND mtr.date_transfer IS NOT NULL AND mtr.chemical_pregnancy=TRUE AND EXTRACT(YEAR FROM mtr.date_transfer)=2024 GROUP BY EXTRACT(MONTH FROM mtr.date_transfer) ORDER BY MONTH;",
+        "tables": {
+            "medical_treatment_result": ["date_transfer", "treatment_id", "chemical_pregnancy"],
+            "medical_treatment": ["active", "technical"]
+        }
+    },
+    {
+        "description": "Số ca thai lâm sàng (chuyển phôi trữ)",
+        "lang": "vi",
+        "query": "SELECT EXTRACT(MONTH FROM mtr.date_transfer) AS MONTH,COUNT(*) AS clinical_pregnancy_count FROM medical_treatment_result mtr JOIN medical_treatment mt ON mtr.treatment_id=mt.ID WHERE mt.active=TRUE AND mt.technical='FET' AND mtr.date_transfer IS NOT NULL AND mtr.clinical_pregnancy=TRUE AND EXTRACT(YEAR FROM mtr.date_transfer)=2024 GROUP BY EXTRACT(MONTH FROM mtr.date_transfer) ORDER BY MONTH;",
+        "tables": {
+            "medical_treatment_result": ["date_transfer", "treatment_id", "clinical_pregnancy"],
+            "medical_treatment": ["active", "technical"]
+        }
+    },
+    {
+        "description": "Tổng số túi thai (chuyển phôi trữ)",
+        "lang": "vi",
+        "query": "SELECT EXTRACT(MONTH FROM mtr.date_transfer) AS MONTH,SUM(gestational_sac_digit) AS total_gestational_sacs FROM medical_treatment_result mtr JOIN medical_treatment mt ON mtr.treatment_id=mt.ID WHERE mt.active=TRUE AND mt.technical='FET' AND mtr.date_transfer IS NOT NULL AND EXTRACT(YEAR FROM mtr.date_transfer)=2024 GROUP BY EXTRACT(MONTH FROM mtr.date_transfer) ORDER BY MONTH;",
+        "tables": {
+            "medical_treatment_result": ["date_transfer", "treatment_id", "gestational_sac_digit"],
+            "medical_treatment": ["active", "technical"]
+        }
+    },
+    {
+        "description": "Số ca có túi thai >= 2 (chuyển phôi trữ)",
+        "lang": "vi",
+        "query": "SELECT EXTRACT(MONTH FROM mtr.date_transfer) AS MONTH,COUNT(*) AS total_gestational_sacs FROM medical_treatment_result mtr JOIN medical_treatment mt ON mtr.treatment_id=mt.ID WHERE mt.active=TRUE AND mt.technical='FET' AND mtr.date_transfer IS NOT NULL AND gestational_sac_digit>=2 AND EXTRACT(YEAR FROM mtr.date_transfer)=2024 GROUP BY EXTRACT(MONTH FROM mtr.date_transfer) ORDER BY MONTH;",
+        "tables": {
+            "medical_treatment_result": ["date_transfer", "treatment_id", "gestational_sac_digit"],
+            "medical_treatment": ["active", "technical"]
+        }
+    },
+    {
+        "description": "Số ca thai ngoài tử cung (chuyển phôi trữ)",
+        "lang": "vi",
+        "query": "SELECT EXTRACT(MONTH FROM mtr.date_transfer) AS MONTH,COUNT(*) AS ectopic_pregnancy_count FROM medical_treatment_result mtr JOIN medical_treatment mt ON mtr.treatment_id=mt.ID WHERE mt.active=TRUE AND mt.technical='FET' AND mtr.date_transfer IS NOT NULL AND EXTRACT(YEAR FROM mtr.date_transfer)=2024 AND mtr.ectopic_pregnancy=TRUE GROUP BY EXTRACT(MONTH FROM mtr.date_transfer) ORDER BY MONTH;",
+        "tables": {
+            "medical_treatment_result": ["date_transfer", "treatment_id", "ectopic_pregnancy"],
+            "medical_treatment": ["active", "technical"]
+        }
+    },
+    {
+        "description": "Số ca sảy/lưu thai (chuyển phôi trữ)",
+        "lang": "vi",
+        "query": "SELECT EXTRACT(MONTH FROM r.date_transfer) AS MONTH,COUNT(*) AS stillbirth_count FROM medical_treatment_result r JOIN medical_treatment T ON r.treatment_id=T.ID WHERE T.active=TRUE AND T.technical='FET' AND r.date_transfer IS NOT NULL AND r.stillbirth=TRUE AND EXTRACT(YEAR FROM r.date_transfer)=2024 GROUP BY EXTRACT(MONTH FROM r.date_transfer) ORDER BY MONTH;",
+        "tables": {
+            "medical_treatment_result": ["date_transfer", "treatment_id", "stillbirth"],
+            "medical_treatment": ["active", "technical"]
+        }
+    },
+    {
+        "description": "Số ca sinh non (chuyển phôi trữ)",
+        "lang": "vi",
+        "query": "SELECT EXTRACT(MONTH FROM r.date_transfer) AS MONTH,COUNT(*) AS preterm_birth_count FROM medical_treatment_result r JOIN medical_treatment T ON r.treatment_id=T.ID WHERE T.active=TRUE AND T.technical='FET' AND r.date_transfer IS NOT NULL AND r.preterm_birth=TRUE AND EXTRACT(YEAR FROM r.date_transfer)=2022 GROUP BY EXTRACT(MONTH FROM r.date_transfer) ORDER BY MONTH;",
+        "tables": {
+            "medical_treatment_result": ["date_transfer", "treatment_id", "preterm_birth"],
+            "medical_treatment": ["active", "technical"]
+        }
+    },
+    {
+        "description": "Số ca có em bé sinh sống (chuyển phôi trữ)",
+        "lang": "vi",
+        "query": "SELECT EXTRACT(MONTH FROM r.date_transfer) AS MONTH,COUNT(*) AS live_birth_count FROM medical_treatment_result r JOIN medical_treatment T ON r.treatment_id=T.ID WHERE T.active=TRUE AND T.technical='FET' AND r.date_transfer IS NOT NULL AND r.num_baby_live_digit>=1 AND EXTRACT(YEAR FROM r.date_transfer)=2022 GROUP BY EXTRACT(MONTH FROM r.date_transfer) ORDER BY MONTH;",
+        "tables": {
+            "medical_treatment_result": ["date_transfer", "treatment_id", "num_baby_live_digit"],
+            "medical_treatment": ["active", "technical"]
+        }
+    }
+]

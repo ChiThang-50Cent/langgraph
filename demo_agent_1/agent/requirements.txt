@@ -1,0 +1,7 @@
+langgraph
+langchain_community
+langchain_groq
+langchain_openai
+pydantic
+sqlparse
+psycopg2-binary

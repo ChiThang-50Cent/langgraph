@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="ims_agent_bot" model="res.users">
+            <field name="login">agent</field>
+            <field name="partner_id" ref="llm_agent.partner_ims_agent_bot"/>
+            <field name="image_1920" type="base64" file="llm_agent/static/img/agent_avatar.png"/>
+        </record>
+    </data>
+</odoo>
